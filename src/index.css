@@ -22,4 +22,6 @@
 
 @theme {
   --font-title: "Bebas Neue", "sans-serif";
+
+  --breakpoint-xs-l: 26.563rem;
 }
