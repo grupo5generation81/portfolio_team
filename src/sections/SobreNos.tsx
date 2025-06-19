@@ -1,4 +1,3 @@
-import React from "react";
 import Estrelas from "../assets/img/Estrelas.png"
 
 function SobreNos() {
@@ -43,9 +42,9 @@ function SobreNos() {
 
   return (
     <>
-    <div className="flex justify-center pt-3">
-      <img src={Estrelas} alt="Logo das estrelas"/>
-    </div>
+      <div className="flex justify-center pt-3">
+        <img src={Estrelas} alt="Logo das estrelas" />
+      </div>
       <div className="text-black py-10 px-5">
         <h2 className="text-center text-6xl font-bold mb-10">
           NOSSO <span className="text-outline">TIME</span>
