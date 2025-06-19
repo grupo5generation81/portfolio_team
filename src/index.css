@@ -9,11 +9,22 @@
     padding: 0;
     font-family: "Inter";
   }
+
+  body {
+    @apply bg-white text-black;
+  }
+
+  body.dark {
+    @apply bg-neutral-900 text-white;
+  }
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --font-title: "Bebas Neue", "sans-serif";
   --font-nameMember: "Caveat"
+  --breakpoint-xs-l: 26.563rem;
 }
 
 @layer utilities {
