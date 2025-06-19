@@ -6,12 +6,12 @@ export default function Main() {
     <div className="
       w-full 
       max-w-[1440px] 
-      min-h-screen 
+      min-h-11/12
+      pt-8
       flex
       items-center 
       gap-16 
-      pl-12 
-      bg-white 
+      pl-12
       overflow-hidden
       max-xs-l:items-start
       max-xs-l:p-6
@@ -36,7 +36,8 @@ export default function Main() {
         <p className="
           mt-6 
           text-md 
-          text-gray-700 
+          text-gray-700
+          dark:text-gray-400
           font-body 
           max-w-lg 
           w-[542px]
