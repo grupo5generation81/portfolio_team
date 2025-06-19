@@ -1,37 +1,46 @@
-
+import { useContext } from "react";
+import logo_javason_Light from "../assets/logo-javason-light.png"
+import logo_javason_Dark from "../assets/logo-javason-dark.png"
+import logo_generation_Light from "../assets/logo-generation-light.png"
+import logo_generation_Dark from "../assets/logo-generation-dark.png"
+import img_origin_Light from "../assets/img-origin-light.png"
+import img_origin_Dark from "../assets/img-origin-dark.png"
+import ThemeContext from "../context/ThemeContext";
 
 function Origem() {
+    const { currentTheme } = useContext(ThemeContext);
+
     return (
-        <section className="flex flex-col items-center justify-center px-4 py-12 text-center">
+        <section id="ORIGIN" className="flex flex-col items-center justify-center py-12 text-center">
 
-            <div className="flex items-center justify-center gap-20  mb-12">
+            <div className="w-full flex items-center justify-center gap-20 mb-12">
 
-                <div className="h-4 w-40 bg-black"></div>
+                <div className="h-4 flex-1 bg-[#1e1e1e] dark:bg-white"></div>
 
-                <h2 className="text-7xl font-title font-bold whitespace-nowrap">
+                <h2 className="text-7xl font-title whitespace-nowrap">
                     A ORIGEM DA JORNADA
                 </h2>
 
-                <div className="h-4 w-40 bg-black"></div>
+                <div className="h-4 flex-1 bg-[#1e1e1e] dark:bg-white"></div>
 
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-center gap-12 mb-12">
-                <img src="https://ik.imagekit.io/lml7cc5ua/Logo_Grupo?updatedAt=1750194589314"
+            <div className="flex flex-col md:flex-row items-center justify-center gap-12">
+                <img src={currentTheme === "dark" ? logo_javason_Light : logo_javason_Dark}
                     alt="Javason's Five"
                     className="h-16 hover:scale-105 transition-transform" />
-                <img src="https://ik.imagekit.io/lml7cc5ua/Cora%C3%A7%C3%A3o?updatedAt=1750194624758"
+                <img src={currentTheme === "dark" ? img_origin_Dark : img_origin_Light}
                     alt="Coração"
-                    className="h-40 hover:scale-105 transition-transform" />
-                <img src="https://ik.imagekit.io/lml7cc5ua/Logo_Generation?updatedAt=1750194656869"
+                    className="h-36" />
+                <img src={currentTheme === "dark" ? logo_generation_Dark : logo_generation_Light}
                     alt="Generation"
                     className="h-16 hover:scale-105 transition-transform" />
             </div>
 
-            <p className="max-w-3xl text-lg justify-center leading-relaxed mt-4">
+            <p className="max-w-[740px] w-full justify-center leading-relaxed mt-8">
                 Em um ambiente de aprendizado desafiador e repleto de oportunidades, seis mentes curiosas se encontraram com um propósito em comum: evoluir na programação e transformar ideias em soluções reais. Assim nasceu o Javason's Five, o grupo 5 da turma 81 do programa Generation Brasil.
-                <br />
-                <br />
+            </p>
+            <p className="max-w-[740px] w-full justify-center leading-relaxed">
                 Somos estudantes apaixonados por tecnologia, unidos por valores como colaboração, resiliência e vontade de aprender. Cada um com sua bagagem única, mas todos com o mesmo objetivo: crescer juntos e deixar nossa marca no mundo da programação.
             </p>
         </section>

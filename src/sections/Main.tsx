@@ -34,8 +34,9 @@ export default function Main() {
           COM IMPACTO.
         </h2>
         <p className="
-          mt-6 
+          mt-3 
           text-md 
+          text-base/8
           text-gray-700
           dark:text-gray-400
           font-body 

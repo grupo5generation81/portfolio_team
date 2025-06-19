@@ -15,14 +15,14 @@ export default function Navbar() {
   const navItems = ["MAIN", "ORIGIN", "CASE STUDIES", "TEAM"];
 
   return (
-    <div className="mx-4 md:mx-12 py-4 flex justify-between border-b border-b-gray-700 relative">
+    <div className="mx-4 md:mx-12 py-4 flex justify-between border-b-2 border-b-gray-700 relative">
       <img src={currentTheme === "light" ? logo_javason_Dark : logo_javason_Light} alt="logo da empresa" className="w-36" />
       <div className="hidden md:flex md:w-[785px] md:justify-between lg:justify-between md:ml-6">
         <ul className="flex list-none gap-6 items-center">
           {navItems.map((item) => (
             <li key={item} className="relative overflow-hidden group">
               <a
-                href="#"
+                href={`#${item}`}
                 className="block py-2 px-3 rounded-sm hover:bg-white"
               >
                 {item}
