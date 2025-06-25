@@ -45,7 +45,7 @@ export default function Main() {
           max-xs-l:w-full
           max-xs-l:text-justify
         ">
-          Cinco mentes criativas que se uniram para transformar desafios em soluções reais. Do Java ao front-end, somos um time que combina código limpo, boas práticas e muita vontade de fazer a diferença.
+          Seis mentes criativas que se uniram para transformar desafios em soluções reais. Do Java ao front-end, somos um time que combina código limpo, boas práticas e muita vontade de fazer a diferença.
         </p>
       </div>
       <div id="image-grid" className="

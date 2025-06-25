@@ -11,7 +11,7 @@ function Origem() {
     const { currentTheme } = useContext(ThemeContext);
 
     return (
-        <section id="ORIGIN" className="flex flex-col items-center justify-center py-12 text-center">
+        <section id="ORIGEM" className="flex flex-col items-center justify-center py-12 text-center">
 
             <div className="w-full flex items-center justify-center gap-20 mb-12">
 

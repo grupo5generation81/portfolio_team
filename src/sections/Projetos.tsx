@@ -1,6 +1,6 @@
 function Projetos() {
     return (
-        <section id="CASE STUDIES" className="w-full px-8 py-12 flex flex-col items-center">
+        <section id="PROJETOS" className="w-full px-8 py-12 flex flex-col items-center">
 
             <div className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center mb-12">
                 <div>
