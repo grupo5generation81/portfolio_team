@@ -32,7 +32,7 @@ function Poderes() {
         </p>
       </div>
 
-      <img src={ListaPoderes} alt="Listagem de habilidades que os integrantes apresentam" className="w-[55%]" />
+      <img src={ListaPoderes} alt="Listagem de habilidades que os integrantes apresentam" className="w-[100%] sm:w-[55%] " />
       {/* <div className="flex flex-col relative items-start w-[824px]">
         <div className="bg-rose-400 text-white ml-47 px-6 py-3 rounded-full cursor-pointer shadow-md hover:-translate-1 transition-transform duration-500">
           Java com orientação a objetos
