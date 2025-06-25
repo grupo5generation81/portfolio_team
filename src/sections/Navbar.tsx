@@ -10,9 +10,7 @@ export default function Navbar() {
 
   const isOn = currentTheme === "dark";
 
-
-
-  const navItems = ["MAIN", "ORIGIN", "CASE STUDIES", "TEAM"];
+  const navItems = ["HOME", "ORIGEM", "TEAM", "PROJETOS"];
 
   return (
     <div className="mx-4 md:mx-12 py-4 flex justify-between border-b-2 border-b-gray-700 relative">
@@ -46,9 +44,8 @@ export default function Navbar() {
         </label>
       </div>
 
-
       <div className="hidden max-md:flex items-center gap-4">
-        {/* Menu button (mobile) */}
+      
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
