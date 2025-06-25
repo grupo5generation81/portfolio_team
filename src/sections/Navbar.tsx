@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const isOn = currentTheme === "dark";
 
-  const navItems = ["HOME", "ORIGEM", "TEAM", "PROJETOS"];
+  const navItems = ["HOME", "ORIGEM", "TIME", "PROJETOS"];
 
   return (
     <div className="mx-4 md:mx-12 py-4 flex justify-between border-b-2 border-b-gray-700 relative">
