@@ -8,7 +8,7 @@ import ThemeContext from "../context/ThemeContext";
 function Poderes() {
   const { currentTheme } = useContext(ThemeContext);
   return (
-    <div className="bg-[#1e1e1e] dark:bg-white text-white py-6 px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+    <div id="PODERES" className="bg-[#1e1e1e] dark:bg-white text-white py-6 px-8 flex flex-col md:flex-row justify-between items-center gap-6">
 
       <div className="flex flex-col flex-wrap items-start max-w-md">
         <div className="dark:text-[#1e1e1e]">

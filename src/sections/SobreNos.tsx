@@ -49,7 +49,7 @@ function SobreNos() {
   ];
 
   return (
-    <div id="TEAM">
+    <div id="TIME">
       <img src={currentTheme === "dark" ? diamond_Dark : diamond_Light} alt="Logo das estrelas" className="w-16 h-16 mx-auto" />
       <div className="py-10 px-5">
         <h2 className="text-center text-6xl font-title mb-10">

@@ -10,9 +10,7 @@ export default function Navbar() {
 
   const isOn = currentTheme === "dark";
 
-
-
-  const navItems = ["MAIN", "ORIGIN", "CASE STUDIES", "TEAM"];
+  const navItems = ["ORIGEM", "TIME", "PODERES", "PROJETOS"];
 
   return (
     <div className="mx-4 md:mx-12 py-4 flex justify-between border-b-2 border-b-gray-700 relative">
@@ -23,7 +21,7 @@ export default function Navbar() {
             <li key={item} className="relative overflow-hidden group">
               <a
                 href={`#${item}`}
-                className="block py-2 px-3 rounded-sm hover:bg-white"
+                className="block py-2 px-3 rounded-sm"
               >
                 {item}
               </a>
@@ -46,9 +44,8 @@ export default function Navbar() {
         </label>
       </div>
 
-
       <div className="hidden max-md:flex items-center gap-4">
-        {/* Menu button (mobile) */}
+      
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
