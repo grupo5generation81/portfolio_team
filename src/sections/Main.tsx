@@ -1,4 +1,12 @@
-import img1 from '../assets/img-1.png';
+import RH1 from "../assets/rhcorp-1.png"
+import RH2 from "../assets/rhcorp-2.png"
+import RH3 from "../assets/rhcorp-3.png"
+import FitLab1 from "../assets/fitlab-1.png"
+import FitLab2 from "../assets/fitlab-2.png"
+import FitLab3 from "../assets/fitlab-3.png"
+import Karona1 from "../assets/karona-1.png"
+import Karona2 from "../assets/karona-2.png"
+import Karona3 from "../assets/karona-3.png"
 
 export default function Main() {
 
@@ -56,19 +64,19 @@ export default function Main() {
         max-xs-l:hidden
       ">
         <div className="flex gap-4">
-          <img src={img1} className="ml-16 w-60 h-36 rounded-xl bg-gray-500 object-cover max-lg:ml-0" />
-          <img src={img1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
-          <img src={img1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={RH1} className="ml-16 w-60 h-36 rounded-xl bg-gray-500 object-cover max-lg:ml-0" />
+          <img src={RH2} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={RH3} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
         </div>
         <div className="flex gap-4 max-lg:hidden">
-          <img src={img1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
-          <img src={img1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
-          <img src={img1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={FitLab1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={FitLab2} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={FitLab3} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
         </div>
         <div className="flex gap-4 max-lg:hidden">
-          <img src={img1} className="ml-16 w-60 h-36 rounded-xl bg-gray-500 object-cover" />
-          <img src={img1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
-          <img src={img1} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={Karona1} className="ml-16 w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={Karona2} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
+          <img src={Karona3} className="w-60 h-36 rounded-xl bg-gray-500 object-cover" />
         </div>
 
       </div>
