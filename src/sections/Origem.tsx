@@ -12,7 +12,7 @@ function Origem() {
 
   return (
     <section
-      id="ORIGIN"
+      id="ORIGEM"
       className="w-full flex flex-col items-center justify-center py-12 text-center"
     >
       <div className="w-full flex items-center justify-center gap-20 mb-12">
