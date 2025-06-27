@@ -12,17 +12,17 @@ function Poderes() {
 
       <div className="flex flex-col flex-wrap items-start max-w-md">
         <div className="dark:text-[#1e1e1e]">
-          <h2 className="text-8xl font-title">
+          <h2 className="text-[70px] lg:text-8xl font-title leading-none">
             OS PODERES
           </h2>
           <div className="flex gap-8">
-            <h2 className="text-8xl font-title">
+            <h2 className="text-[70px] lg:text-8xl font-title">
               DO
             </h2>
             <img
               src={currentTheme === "light" ? stick_Light : stick_Dark}
               alt="logo do javasons"
-              className="w-50"
+              className="h-25 lg:h-30"
             />
           </div>
         </div>
@@ -32,27 +32,15 @@ function Poderes() {
         </p>
       </div>
 
-      <img src={ListaPoderes} alt="Listagem de habilidades que os integrantes apresentam" className="w-[100%] sm:w-[55%] " />
-      {/* <div className="flex flex-col relative items-start w-[824px]">
-        <div className="bg-rose-400 text-white ml-47 px-6 py-3 rounded-full cursor-pointer shadow-md hover:-translate-1 transition-transform duration-500">
-          Java com orientação a objetos
-        </div>
-        <div className="bg-orange-400 text-white ml-37 px-6 py-3 rounded-full cursor-pointer shadow-md hover:-translate-1 transition-transform duration-500">
-          Banco de dados com MySQL
-        </div>
-        <div className="bg-yellow-400 text-black ml-7 px-6 py-3 rounded-full cursor-pointer shadow-md hover:-translate-1 transition-transform duration-500">
-          Desenvolvimento web com HTML, CSS e JavaScript
-        </div>
-        <div className="bg-blue-400 text-white px-6 py-3 ml-57 rounded-full cursor-pointer shadow-md hover:-translate-1 transition-transform duration-500">
-          Git e GitHub para versionamento de código
-        </div>
-        <div className="bg-lime-400 text-black mr-6 px-6 py-3 rounded-full cursor-pointer shadow-md hover:-translate-1 transition-transform duration-500">
-          Trabalho em equipe, comunicação assertiva e resolução de conflitos
-        </div>
-        <div className="bg-yellow-300 text-black px-6 py-3 rounded-full cursor-pointer shadow-md absolute right-6 bottom-10 rotate-[30deg] translate-x-10 hover:-translate-y-2 transition-transform duration-500">
-          Metodologias ágeis (Scrum)
-        </div>
-      </div> */}
+      <img src={ListaPoderes} alt="Listagem de habilidades que os integrantes apresentam" className="w-[100%] sm:w-[55%] hidden lg:block" />
+      <ul className="text-[10px] text-gray-900 flex flex-col gap-2 lg:hidden">
+        <li className="px-4 py-2 rounded-full bg-[#F95F7E]">Java com orientação a objetos</li>
+        <li className="px-4 py-1 rounded-full bg-[#FD7861]">Banco de dados com MySQL</li>
+        <li className="px-4 py-1 rounded-full bg-[#FFAF5D]">Desenvolvimento web com HTML, CSS e JavaScript</li>
+        <li className="px-4 py-1 rounded-full bg-[#FEE95E]">Metodologias ágeis (Scrum)</li>
+        <li className="px-4 py-1 rounded-full bg-[#5DA7FB]">Git e GitHub para versionamento de código</li>
+        <li className="px-4 py-1 rounded-full bg-[#A9FF60]">Trabalho em equipe, comunicação assertiva e resolução de conflitos</li>
+      </ul>
     </div>
   );
 }

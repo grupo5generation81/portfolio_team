@@ -13,7 +13,7 @@ function Origem() {
   return (
     <section
       id="ORIGIN"
-      className="flex flex-col items-center justify-center py-12 text-center"
+      className="w-full flex flex-col items-center justify-center py-12 text-center"
     >
       <div className="w-full flex items-center justify-center gap-20 mb-12">
         <div className="h-4 flex-1 bg-[#1e1e1e] dark:bg-white"></div>
@@ -25,16 +25,16 @@ function Origem() {
         <div className="h-4 flex-1 bg-[#1e1e1e] dark:bg-white"></div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-12">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-10">
         <img
           src={currentTheme === "dark" ? logo_javason_Light : logo_javason_Dark}
           alt="Javason's Five"
-          className="h-16 hover:scale-105 transition-transform"
+          className="h-8 lg:h-16 hover:scale-105 transition-transform"
         />
         <img
           src={currentTheme === "dark" ? img_origin_Dark : img_origin_Light}
           alt="Coração"
-          className="h-36"
+          className="h-16 lg:h-36"
         />
         <img
           src={
@@ -43,17 +43,17 @@ function Origem() {
               : logo_generation_Light
           }
           alt="Generation"
-          className="h-16 hover:scale-105 transition-transform"
+          className="h-8 lg:h-16 hover:scale-105 transition-transform"
         />
       </div>
 
-      <p className="max-w-[740px] w-full justify-center leading-relaxed mt-8">
+      <p className="px-6 max-w-[740px] w-full justify-center text-base/8 mt-8">
         Em um ambiente de aprendizado desafiador e repleto de oportunidades,
         seis mentes curiosas se encontraram com um propósito em comum: evoluir
         na programação e transformar ideias em soluções reais. Assim nasceu o
         Javason's Five, o grupo 5 da turma 81 do programa Generation Brasil.
       </p>
-      <p className="max-w-[740px] w-full justify-center leading-relaxed">
+      <p className="px-6 max-w-[740px] w-full justify-center text-base/8">
         Somos estudantes apaixonados por tecnologia, unidos por valores como
         colaboração, resiliência e vontade de aprender. Cada um com sua bagagem
         única, mas todos com o mesmo objetivo: crescer juntos e deixar nossa
