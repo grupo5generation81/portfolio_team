@@ -65,7 +65,7 @@ function SobreNos() {
                   alt={pessoa.nome}
                   className="w-[270px] h-[250px] object-cover object-[35%_50%]"
                 />
-                <h3 className="font-nameMember text-lg py-1.5">{pessoa.nome}</h3>
+                <h3 className="font-nameMember text-gray-700 text-lg py-1.5">{pessoa.nome}</h3>
               </div>
               <div className="flex gap-4 mt-2">
                 <a
